@@ -1,0 +1,1 @@
+/Users/amai/tuts/CMakeFiles/PerspectiveWindow.dir
