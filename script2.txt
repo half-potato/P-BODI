@@ -1,0 +1,4 @@
+I am currently working on a computer vision optimation method I am calling perspective based object detection, or PBODI for short. The idea is that the sliding window method of creating windows for use with a classifier can be improved by making the windows sized most similiarily to the object by taking advantage of perspective. Objects in the distance appear smaller than up close.
+I've got a working prototype of determining size based on perspective here in python using opencv. As you can see, it finds the size of the face of the box. I'll just change the values so you can see it is calculated.
+I plan to make different sliding window classifiers for different kinds of objects, like stop signs and people. I imagine multithreading the classifiers to identify a couple different objects quickly.
+Thanks for looking at my profile.
