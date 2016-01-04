@@ -1,12 +1,7 @@
 import math
 import numpy
 import cv2
-
-def vlen( a ):
-    l = 0
-    for i in a:
-        l += i ** 2
-    return math.sqrt(l)
+import util
 
 class PBOD:
     # angle refers to the view
@@ -48,18 +43,15 @@ class PBOD:
     def getAngleFromGround( self ):
         b = [self.cameraDirection[0], 0.0, self.cameraDirection[2]]
         a = self.cameraDirection
-        cos = numpy.dot(a, b) / (vlen(a) * vlen(b))
+        cos = numpy.dot(a, b) / (util.vlen(a) * util.vlen(b))
         angleToLevel = math.acos(cos)
         return math.pi/2 - angleToLevel
 
     #good
     def getAngleFromCamera( self, pheight ):
-        print("Angle:", self.getAngleFromGround())
-        print("HA:", self.heightAngle)
-        print("YA:", self.yAngleInView( pheight ))
         return self.getAngleFromGround() - (self.heightAngle / 2.0) + self.yAngleInView( pheight )
 
-    # Negative incline for looking up
+    #good
     def getDistanceAtHeight( self, pheight, incline = 0 ):
         A = self.getAngleFromCamera( pheight )
         print("A:", A)
@@ -69,6 +61,7 @@ class PBOD:
         H = math.pi - ( X + A )
         # Law of sines
         x = self.h * math.sin( X ) / math.sin( H )
+        print(x)
         return x
 
     def getAngularSize( self, x, y, objectSize, incline = 0 ):
@@ -76,9 +69,7 @@ class PBOD:
         d = self.getDistanceAtHeight( y )
         dist = 1.0 if math.isnan(d) else d
         X = math.pi / 2.0 - incline
-        a = dist * math.sin( A ) / math.sin ( X )
-        farend = a + objectSize[2]
-        print("Dist:", dist)
+        farend = dist + objectSize[2]
         # determine distance to end point, calculate AE
         #determine angle to far end's tip from the tip of the close end
 
@@ -87,6 +78,7 @@ class PBOD:
         dist_to_top_end = math.sqrt((self.h - objectSize[1]) ** 2 + farend ** 2)
         dist_to_top_close = math.sqrt((self.h - objectSize[1]) ** 2 + dist ** 2)
         dist_to_bot_close = math.sqrt(self.h ** 2 + dist ** 2)
+        print("Top:", dist_to_top_close)
         #law of cosines
         #calculate angular size of end bit (why tho?)
         AB = math.acos((dist_to_top_end**2 + dist_to_bot_end**2 - objectSize[1]**2) / (2 * dist_to_bot_end * dist_to_top_end))
@@ -94,10 +86,9 @@ class PBOD:
         AF = math.acos((dist_to_top_close**2 + dist_to_bot_close**2 - objectSize[1]**2) / (2 * dist_to_top_close * dist_to_bot_close))
         #determine the size of the top
         AT = math.acos((dist_to_top_close**2 + dist_to_top_end**2 - objectSize[2]**2) / (2 * dist_to_top_close * dist_to_top_end))
+        print("AT:", AF)
 
         AH = AF + AT
-        print("AF:", AF)
-        print("PM:", self.getPixelAngSize())
 
         #width at top
         '''left_edge_dist = 
@@ -113,7 +104,7 @@ class PBOD:
         ratio = AF / objectSize[1]
         w = ratio * objectSize[0]
 
-        return (AT /2 , AF, w, w)
+        return (AT, AF, w, w)
 
     def getPixelAngSize( self ):
         return self.pheight / self.heightAngle
@@ -127,11 +118,10 @@ class PBOD:
         pheight = angleHeight * self.pheight
         return image[y:(y + pheight), x:(x + w)]'''
     def getWindow( self, x, y, objectSize, image, incline = 0):
-        print("XY:", x, y)
         (topSize, frontSize, width, _)  = self.getAngularSize( x, y, objectSize, incline )
         windW = width * self.getPixelAngSize()
+        print("Height:", topSize + frontSize)
         windH = (frontSize + topSize) * self.getPixelAngSize()
-        print("Wind:", windW, windH)
         return image[y:(y + windH), x:(x + windW)]
 
     def getWindows( self, objectSize, image, stepSize, incline = 0 ):
