@@ -27,7 +27,7 @@ class PBOD
 		float getDistanceAtHeight(int height, float incline = 0.0);
 		vector<float> getAngularSize(int x, int y, float objectH, float objectW, float objectZ, float incline = 0.0);
 		vector<float> getWindow(int x, int y, float objectW, float objectH, float objectZ, float incline = 0.0);
-		vector<vector<float> > getWindows(float objectW, float objectH, float objectZ, Mat image, float stepSize, float incline);
+		vector<vector<float> > getWindows(float objectW, float objectH, float objectZ, int imw, int imh, float stepSize, float incline = 0);
 };
 
 float PBOD::yAngleInView(int height)
