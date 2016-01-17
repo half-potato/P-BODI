@@ -6,4 +6,5 @@ include_directories(
 	${CMAKE_CURRENT_SOURCE_DIR}/src
 )
 add_executable( PBODI src/main.cpp src/Perspective.cpp)
+set_property(PBODY tgt PROPERTY CXX_STANDARD_REQUIRED 11)
 target_link_libraries(PBODI ${OpenCV_LIBS} )

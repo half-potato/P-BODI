@@ -52,7 +52,7 @@ class PBOD:
         return self.getAngleFromGround() - (self.heightAngle / 2.0) + self.yAngleInView( pheight )
 
     #good
-    def getDistanceAtHeight( self, pheight, incline = 0 ):
+    def getDistanceAtHeight( self, pheight, incline = 0.0 ):
         A = self.getAngleFromCamera( pheight )
         print("A:", A)
         if A >=math.pi/2:
@@ -64,7 +64,7 @@ class PBOD:
         print(x)
         return x
 
-    def getAngularSize( self, x, y, objectSize, incline = 0 ):
+    def getAngularSize( self, x, y, objectSize, incline = 0.0 ):
         A = self.getAngleFromCamera( y )
         d = self.getDistanceAtHeight( y )
         dist = 1.0 if math.isnan(d) else d

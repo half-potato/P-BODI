@@ -1,0 +1,392 @@
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec266618373/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec266618373.dir/build.make CMakeFiles/cmTryCompileExec266618373.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec266618373.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec266618373.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec266618373.dir/testCCompiler.c.o] Error 1
+make: *** [cmTryCompileExec266618373/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1924017922/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1924017922.dir/build.make CMakeFiles/cmTryCompileExec1924017922.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1924017922.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec1924017922.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec1924017922.dir/testCCompiler.c.o] Error 1
+make: *** [cmTryCompileExec1924017922/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec247329598/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec247329598.dir/build.make CMakeFiles/cmTryCompileExec247329598.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec247329598.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec247329598.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: *** [CMakeFiles/cmTryCompileExec247329598.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec247329598/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec1109262857/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec1109262857.dir/build.make CMakeFiles/cmTryCompileExec1109262857.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec1109262857.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec1109262857.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: *** [CMakeFiles/cmTryCompileExec1109262857.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec1109262857/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2652231801/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2652231801.dir/build.make CMakeFiles/cmTryCompileExec2652231801.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2652231801.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec2652231801.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make[1]: *** [CMakeFiles/cmTryCompileExec2652231801.dir/testCCompiler.c.o] Error 1
+make: *** [cmTryCompileExec2652231801/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2488821917/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2488821917.dir/build.make CMakeFiles/cmTryCompileExec2488821917.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2488821917.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec2488821917.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: *** [CMakeFiles/cmTryCompileExec2488821917.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2488821917/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec2015707672/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec2015707672.dir/build.make CMakeFiles/cmTryCompileExec2015707672.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec2015707672.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec2015707672.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: *** [CMakeFiles/cmTryCompileExec2015707672.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec2015707672/fast] Error 2
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: 
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -c
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Compiling the C compiler identification source file "CMakeCCompilerId.c" failed.
+Compiler: /usr/bin/cc 
+Build flags: -std=c++11x
+Id flags: -Aa
+
+The output was:
+1
+cc: error: unrecognized command line option ‘-std=c++11x’
+
+
+Checking whether the C compiler is IAR using "" did not match "IAR .+ Compiler":
+cc: error: unrecognized command line option ‘-std=c++11x’
+cc: fatal error: no input files
+compilation terminated.
+Determining if the C compiler works failed with the following output:
+Change Dir: /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTryCompileExec4251668886/fast"
+/usr/bin/make -f CMakeFiles/cmTryCompileExec4251668886.dir/build.make CMakeFiles/cmTryCompileExec4251668886.dir/build
+make[1]: Entering directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+/usr/bin/cmake -E cmake_progress_report /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/CMakeFiles 1
+Building C object CMakeFiles/cmTryCompileExec4251668886.dir/testCCompiler.c.o
+/usr/bin/cc   -std=c++11x    -o CMakeFiles/cmTryCompileExec4251668886.dir/testCCompiler.c.o   -c /home/amai16/P-BODI/build/CMakeFiles/CMakeTmp/testCCompiler.c
+cc: error: unrecognized command line option ‘-std=c++11x’
+make[1]: *** [CMakeFiles/cmTryCompileExec4251668886.dir/testCCompiler.c.o] Error 1
+make[1]: Leaving directory `/home/amai16/P-BODI/build/CMakeFiles/CMakeTmp'
+make: *** [cmTryCompileExec4251668886/fast] Error 2
+
+
