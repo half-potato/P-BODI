@@ -20,11 +20,11 @@ class Heatmap:
         #the points would be evenly distributed along the height
         dia = 2.0 #diameter = 2
         #Imagine fanning out the verticies
-        degSep = (c / self.vCount()) * self.spiralCount
+        degSep = (c / len(self.hmap)) * self.spiralCount
         #get an array of the points within that degree, get the closest one along the y axis
         indicies = []
         for i in xrange(0.0, 360.0, degSep):
-            indicies[len(indicies)] = int(360.0 / i)
+            indicies.append(int(360.*self.spiralCount / i))
 
         #Getting the y axis
         #imagine a line from the center of the sphere to the point on the outside
@@ -37,20 +37,17 @@ class Heatmap:
 
         return 0
 
-    def vCount(self):
-        return len(self.hmap)
-    
     def getDegrees(self, index):
         #reverse of getIndex
         i = float(index)
         c = 2.0 * math.pi
         dia = 2.0
-        res = dia / self.vCount()
-        degSep = (c / self.vCount()) * self.spiralCount
-        h = i * res
+        res = dia / len(self.hmap)
+        degSep = (c / len(self.hmap)) * self.spiralCount
+        h = (i * res) - (dia / 2.)
         vAng = math.acos(h / 1.0)
         hAng = i * degSep
-        print(hAng, vAng)
+        #print(util.normalizeAngle(hAng),vAng)
         return (util.normalizeAngle(hAng), vAng)
 
     def resetVector(self, index):

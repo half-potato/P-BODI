@@ -1,11 +1,9 @@
 #include <vector>
 #include <numeric>
-#include <opencv2/core.hpp>
 #include <math.h>
 #include "LinearAlgebra.cpp"
 
 using namespace std;
-using namespace cv;
 
 class PBOD
 {

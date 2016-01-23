@@ -63,6 +63,8 @@ flags = [
 # harmful
 '/System/Library/Frameworks/Python.framework/Headers',
 '-isystem',
+'/usr/include/c++/4.8.4',
+'-isystem',
 '/usr/local/include',
 '-isystem',
 '/usr/include',
